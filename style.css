@@ -4,15 +4,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 header{
     border-bottom: 2px solid #ececec;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10000 ;
+    overflow:hidden;
 }
 nav{
     width: 100%;
     margin: auto;
+    
     /* border: 2px solid red; */
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 .innerNav{
     width: 100%;
@@ -119,7 +129,8 @@ nav{
   /* styling for main */
 .genLayout{
     max-width: 1100px;
-    margin: auto;
+    margin:  6rem auto;
+    
 
 }
 .generalistingBlog{
@@ -259,7 +270,9 @@ nav{
 }
 
 .mostViewed{
-    /* border:  2px solid green; */
+ border:  2px solid green; 
+ position: sticky;
+ top: 100px;
 }
 .viewCard{
     width: 100%;
