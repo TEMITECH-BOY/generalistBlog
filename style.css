@@ -270,7 +270,7 @@ nav{
 }
 
 .mostViewed{
- border:  2px solid green; 
+ /* border:  2px solid green;  */
  position: sticky;
  top: 100px;
 }
